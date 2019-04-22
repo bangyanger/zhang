@@ -1,0 +1,30 @@
+<block>
+    <view class="index">
+        <view class="header">面试信息</view>
+        <view class="ul">
+            <view class="li"><text>公司名称</text>
+                <input placeholder="请输入公司名称" bindchange="workername" />
+            </view>
+            <view class="li"><text>公司电话</text>
+                <input placeholder="请输入面试联系人电话" bindchange="workertel" />
+            </view>
+            <view class="li"><text>面试时间</text>
+                <view class="section">
+                    <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+                        <view class="Picker">{{date}}
+                            <icon type="info" size="23"></icon>
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="li last"><text>面试地址</text>
+                <view bindtap="xzaddress">
+                    <input placeholder="请输入公司名称" />
+                </view>
+            </view>
+        </view>
+        <view class="header">备注信息</view>
+        <textarea placeholder="备注信息（可选，100字以内）"></textarea>
+        <button type="{{primary}}">确认</button>
+    </view>
+</block>

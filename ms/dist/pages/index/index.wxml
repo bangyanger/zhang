@@ -1,0 +1,12 @@
+<block>
+    <view class="index">
+        <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" bindcontroltap="controltap" markers="{{markers}}" show-location="true"></map>
+        <cover-view class="coverview">
+            <cover-image src="{{location}}" bindtap="clickcontrol" class="img_left"></cover-image>
+            <cover-image src="{{my}}" class="img_right"></cover-image>
+            <navigator url="/pages/interview/index">
+                <button>添加面试</button>
+            </navigator>
+        </cover-view>
+    </view>
+</block>

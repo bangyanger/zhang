@@ -1,0 +1,19 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "myms",
+  "description": "",
+  "appid": "wx058e746df8c84dc9",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "autoAudits": false,
+    "checkInvalidKey": true
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {}
+}
